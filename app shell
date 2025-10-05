@@ -1,0 +1,14 @@
+import './App.css'
+import Scene from './Scene'
+import HUD from './HUD'
+
+function App() {
+  return (
+    <div className="app">
+      <Scene />
+      <HUD />
+    </div>
+  )
+}
+
+export default App
