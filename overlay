@@ -1,0 +1,26 @@
+export default function HUD() {
+  return (
+    <div className="hud">
+      <div className="badge">Adeptus Portfolio</div>
+      <h1 className="title">Nilabh Deka</h1>
+      <p className="subtitle">Student, Scaler School of Technology • 1st Year</p>
+      <p className="blurb">
+        3 years in tech — specialization in Backend, Hosting, Frameworks, DL & RL, Auth and Databases.
+        Tier-3 college, but forging the best version of me.
+      </p>
+      <div className="cta-row">
+        <a className="btn primary" href="#work">See Work</a>
+        <a className="btn" href="#contact">Contact</a>
+      </div>
+      <div className="skills">
+        <span>Backend</span>
+        <span>Hosting</span>
+        <span>Frameworks</span>
+        <span>Deep Learning</span>
+        <span>Reinforcement Learning</span>
+        <span>Auth</span>
+        <span>Databases</span>
+      </div>
+    </div>
+  )
+}
